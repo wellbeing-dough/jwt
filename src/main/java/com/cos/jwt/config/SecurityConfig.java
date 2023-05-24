@@ -36,5 +36,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .access("hasRole('ROLE_ADMIN')")
                 .anyRequest().permitAll(); //다른 요청은 전부 들어갈 수 있게
     }
-
 }
